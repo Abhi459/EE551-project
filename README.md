@@ -1,6 +1,6 @@
 Introduction:
 
-This is my EE551 Python project
+This is EE551 Python project By Abhishek Lokam
 
 Proposal:
 
