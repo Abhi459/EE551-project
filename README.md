@@ -9,9 +9,9 @@ canvas site.
 
 ### Features:
 
-1. Login Portal(As Admin(professor) and Student)
+1.Login Portal(As Admin(professor) and Student)
 
-2. For Admin Login:
+2.For Admin Login:
 
   i. Dashboard: Display the courses to which the admin is linked to.
 
