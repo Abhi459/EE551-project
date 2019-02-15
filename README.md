@@ -15,24 +15,23 @@ Features:
 
 i. Dashboard: Display the courses to which the admin is linked to.
 
-ii. Files Sections: Admin should be able to add and retrieve files from the system.
+ii. Files Sections: able to add and retrieve files from the system.
 
-iii. People section: Admin should be able to add a student to the course.
+iii. People section: able to add a student to the course.
 
-iv. Assignment section: Admin should be able to post assignments. Include Due date
+iv. Assignment section: able to post assignments. Include Due date
 feature as well.
 
-v. Grade section: Admin should be able to post grades. You may create just a text box
-and submit button for respective assignments.
+v. Grade section: able to post grades. 
 
 3.For Student Login:
 
 i. Dashboard: Display the current courses taken by the student.
 
-ii. Files section: User should be able to retrieve files from the system added by the
+ii. Files section: able to retrieve files from the system added by the
 admin.
 
-iii. Peoples section: User should be able to view the people present in the course.
+iii. Peoples section: able to view the people present in the course.
 
 iv. User should be able to view the grades for the course.
 
