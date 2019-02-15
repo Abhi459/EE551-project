@@ -1,13 +1,13 @@
-Introduction:
+# Introduction:
 
 This is EE551 Python project By Abhishek Lokam
 
-Proposal:
+## Proposal:
 
 This project provides Website using Django Framework that is similar to canvas website. There will only some features of the
 canvas site.
 
-Features:
+### Features:
 
 1.Login Portal(As Admin(professor) and Student)
 
