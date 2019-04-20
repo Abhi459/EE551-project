@@ -9,29 +9,25 @@ canvas site.
 
 ### Features:
 
-1.Login Portal(As Admin(professor) and Student)
+1. Login functionality for both Professors (as Admin) and for students
 
-2.For Admin Login:
+2. Admin site displays the following:
 
-  i. Dashboard: Display the courses to which the admin is linked to.
-
-  ii. Files Sections: able to add and retrieve files from the system.
-
-  iii. People section: able to add a student to the course.
-
-  iv. Assignment section: able to post assignments. Include Due date
+  * Dashboard: Display the courses to which the admin is linked to.
+  * <i>Files Sections</i>: able to add and retrieve files from the system.
+  * <i>People section</i>: able to add a student to the course.
+  * <i>Assignment section</i>: able to post assignments. Include Due date
       feature as well.
+  * <i>Grade section</i>: able to post grades. 
 
-  v. Grade section: able to post grades. 
+3. Student has access to the following: 
 
-3.For Student Login:
+  * __Dashboard__: Display the current courses taken by the student.
 
-  i. Dashboard: Display the current courses taken by the student.
-
-  ii. Files section: able to retrieve files from the system added by the
+  * __Files section__:  Retrieve files from the system added by the
       admin.
 
-  iii. Peoples section: able to view the people present in the course.
+  * __Peoples section__: able to view the people present in the course.
 
-  iv. User should be able to view the grades for the course.
+  * User will be able to view the grades for the course.
 
