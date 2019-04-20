@@ -13,7 +13,7 @@ canvas site.
 
 2. Admin site displays the following:
 
-  * Dashboard: Display the courses to which the admin is linked to.
+  * <i>**Dashboard**</i>: Display the courses to which the admin is linked to.
   * <i>**Files Sections**</i>: able to add and retrieve files from the system.
   * <i>**People section**</i>: able to add a student to the course.
   * <i>**Assignment section**</i>: able to post assignments. Include Due date
