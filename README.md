@@ -1,6 +1,6 @@
 # Introduction:
 
-This is EE551 Python project By Abhishek Lokam
+This is EE551 Python project By <i>**Abhishek Lokam**</i>
 
 ## Proposal:
 
