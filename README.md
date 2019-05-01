@@ -31,7 +31,11 @@ canvas site.
 # Usage:
 
 1. First start an virtual environment 
-2. Install Django(pip install django), widget-tweaks(pip install django-widget-tweaks)
+2. Requirements python 3, Django(pip install django), widget-tweaks(pip install django-widget-tweaks)
 3. Go the project folder and go to lms folder
 4. use command python manage.py createsuperuser to create admin(professor)
 5. use command python manage.py runserver to start
+6. New users can register using sign up form
+7. Admin can access site using Ipaddress/admin
+8. In the admin site, the admin can add students to the course,create courses etc.
+
