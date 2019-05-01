@@ -1,0 +1,54 @@
+body {
+    font-family: "Helvetica Neue", sans-serif;
+}
+
+h1 {
+    font-family: "Neue Haas Grotesk Display Pro";
+    font-size: 4rem;
+    font-weight: bolder;
+    margin-bottom: 30px;
+}
+
+h2 {
+    font-family: "Neue Haas Grotesk Display Pro";
+    font-weight: bolder;
+    margin-bottom: 30px;
+}
+
+h1.capital span {
+    font-size: 200%;
+}
+div.card-header {
+    background-color: indianred;
+}
+
+.navbar-custom {
+    background-color: indianred;
+}
+
+div.card-body {
+    background-color: indianred;
+    background-color: white;
+    color: black;
+}
+
+div.card {
+    -webkit-box-shadow: -1px 3px 13px -3px rgba(0,0,0,0.75);
+    -moz-box-shadow: -1px 3px 13px -3px rgba(0,0,0,0.75);
+    box-shadow: -1px 3px 13px -3px rgba(0,0,0,0.75);
+}
+
+a.btn {
+   background-color: indianred;
+  color: white;
+}
+
+a.btn:hover {
+    background-color: #BA4D4D;
+}
+
+img.rounded-circle {
+    margin: 1%;
+}
+
+::selection { background: blanchedalmond }

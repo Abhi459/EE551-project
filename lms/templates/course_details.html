@@ -1,0 +1,65 @@
+{% extends 'base.html' %}
+
+{% block breadcrumb %}
+    <li class="breadcrumb-item active"><a href="{% url 'courses' %}">Courses</a></li>
+    <li class="breadcrumb-item active">{{ course.course_name }}</li>
+{% endblock %}
+
+{% block content %}
+    <h1>{{ course.course_title }}</h1>
+    <hr>
+    <h2>Assignments</h2>
+    {% if assignments %}
+        {% for assignment in assignments %}
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item">Assignment {{ assignment.file_id }}: <a href="{{ MEDIA_URL }}{{ assignment.assignment_file }}">{{ assignment.assignment_file }}</a>
+                <p>Due: {{ assignment.due_date }}</p>
+                </li>
+            </ul>
+            <p></p>
+        {% endfor %}
+        {% else %}
+        <p>No assignments yet.</p>
+    {% endif %}
+    <hr>
+    <h2>Grades</h2>
+    {% if grades %}
+        {% for grade in grades %}
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item">Assignment {{ grade.grades_for.file_id }}: {{ grade.grade }}
+                </li>
+            </ul>
+        {% endfor %}
+        {% else %}
+        <p>Not graded yet.</p>
+    {% endif %}
+    <hr>
+    <h2>Announcements</h2>
+    {% if announcements %}
+        {% for announcement in announcements %}
+            <h4>{{ announcement.title }}</h4>
+            <br>
+            <blockquote class="blockquote">
+                <p class="mb-0">{{ announcement.message }}</p>
+                <footer class="blockquote-footer">
+                    {{ announcement.created_by }} at {{ announcement.created_at }}
+                </footer>
+            </blockquote>
+            <hr>
+        {% endfor %}
+        {% else %}
+        <p>No announcements to show.</p>
+        <br>
+    {% endif %}
+    <h2>Meet your peers</h2>
+    {% if students %}
+        {% for student in students %}
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item"><img src="https://api.adorable.io/avatars/47/adorablea.png" class="rounded-circle">{{ student }}</li>
+            </ul>
+        {% endfor %}
+        {% else %}
+        <h4>No students enrolled yet.</h4>
+    {% endif %}
+    <hr>
+{% endblock %}
