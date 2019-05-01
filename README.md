@@ -28,3 +28,10 @@ canvas site.
   * <i>__Peoples section__</i>: able to view the people present in the course.
   * User will be able to view the grades for the course.
 
+# Usage:
+
+1. First start an virtual environment 
+2. Install Django(pip install django), widget-tweaks(pip install django-widget-tweaks)
+3. Go the project folder and go to lms folder
+4. use command python manage.py createsuperuser to create admin(professor)
+5. use command python manage.py runserver to start
